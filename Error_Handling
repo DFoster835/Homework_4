@@ -1,0 +1,15 @@
+try{
+  function validate(num) {
+    if (typeof (num) !== 'number') {
+    }
+    console.log(`The value ${num} is valid.`);
+}
+  } catch (err) {  
+    console.log(`The value ${num} not valid.`);
+ 
+}
+
+const numbers = [1, 2, 'banana', 4, 'orange', 5];
+numbers.forEach(function (val) {
+    validate(val);
+});
